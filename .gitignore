@@ -1,0 +1,9 @@
+# Ignore everything
+*
+
+# Allow git config
+!.gitignore
+
+# Allow ONLY these files
+!langgraph_backend_rag.py
+!streamlit_frontend_rag.py
