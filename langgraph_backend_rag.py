@@ -131,7 +131,7 @@ def get_stock_price(symbol: str) -> dict:
     """
     url = (
         "https://www.alphavantage.co/query"
-        f"?function=GLOBAL_QUOTE&symbol={symbol}&apikey=C9PE94QUEW9VWGFM"
+        f"?function=GLOBAL_QUOTE&symbol={symbol}&apikey=G354QXBDN1NPLW69"
     )
     r = requests.get(url)
     return r.json()
